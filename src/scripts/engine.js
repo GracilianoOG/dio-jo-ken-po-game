@@ -19,8 +19,8 @@ const state = {
 };
 
 const playerSides = {
-  player1: "player-field-card",
-  player2: "computer-field-card",
+  player1: "player-cards",
+  player2: "computer-cards",
 };
 
 const pathImages = "./src/assets/icons/";
