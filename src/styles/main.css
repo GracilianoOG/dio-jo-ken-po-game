@@ -36,6 +36,7 @@
 
 .container__left {
   align-items: center;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   min-width: 300px;
@@ -119,4 +120,12 @@
   border-radius: 8px;
   height: 11.2rem;
   width: 8rem;
+}
+
+.card {
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.2);
 }
